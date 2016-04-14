@@ -24,6 +24,9 @@
       }else{
         document.getElementById("addrerrormsg").style.display = "none";
       }
+      if(document.getElementById("fullname").value == "" || document.getElementById("streetaddr").value == "" ){
+        return false;
+      }
     } 
     </script>
 </head>
